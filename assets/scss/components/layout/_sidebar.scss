@@ -1,0 +1,44 @@
+.sidebar {;
+  display: none;
+
+  &__wrap {
+
+    position: fixed;
+    height: 100vh;
+    width: 200px;
+    top: 0;
+    right: 0;
+    z-index: 200;
+    background: $--dark;
+    display: flex;
+    padding: 20px 0;
+    justify-content: center;
+
+  }
+
+  &__close-bg {
+    z-index: 100;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+  }
+}
+
+.sidebar-nav {
+  margin: -10px;
+  display: flex;
+  flex-direction: column;
+
+  &__item {
+    margin: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .sidebar {
+    display: block;
+  }
+
+}

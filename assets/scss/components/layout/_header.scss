@@ -1,0 +1,42 @@
+.header {
+  margin: 20px 0;
+
+  &__wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__logo {
+    img {
+      height: 80px;
+    }
+  }
+
+  &__menu-open {
+    display: none;
+  }
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: -10px;
+
+  &__item {
+
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header-nav {
+    display: none;
+  }
+  .header__menu-open {
+    display: block;
+    img {
+      height: 32px;
+    }
+  }
+}
