@@ -1,13 +1,6 @@
 <template>
-  <div class="container page">
-    <div class="head back">
-      <h1 class="head__name">
-        HighTwink
-      </h1>
-      <h2 class="head__name">
-        Лучший СНГ сервер Minecraft
-      </h2>
-    </div>
+  <div class=" page">
+    <Hero />
     <div class="body">
       <div class="body__block">
         <h1 class="body__text">
@@ -39,30 +32,10 @@
     </div>
   </div>
 </template>
-<style lang="scss" scoped>
-.back {
-  background: url(https://i.trademc.org/shops/c/B/cBUYFjeccD.jpg) no-repeat 50%;
-}
-.head {
-  height: 300px;
-  padding: 45px;
-  &__name {
-    padding: 5px;
-    color: white;
-  }
-}
-.body {
-  align-items: center;
-  background: rgb(157, 157, 157);
-  background: white;
 
-  &__text {
-    font-family: "Roboto", sans-serif;
-  }
-
-  &__block {
-    padding: 35px;
-  }
+<script>
+import Hero from '~/components/sections/Hero'
+export default {
+  components: { Hero }
 }
-
-</style>
+</script>
