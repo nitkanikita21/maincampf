@@ -1,0 +1,28 @@
+.back {
+  background: url(https://i.trademc.org/shops/c/B/cBUYFjeccD.jpg) no-repeat 50%;
+}
+.head {
+  height: 300px;
+  padding: 45px;
+  &__name {
+    padding: 5px;
+    color: white;
+  }
+}
+.body {
+  align-items: center;
+  background: rgb(157, 157, 157);
+  background: linear-gradient(
+    0deg,
+    rgba(157, 157, 157, 1) 0%,
+    rgba(245, 245, 245, 1) 100%
+  );
+
+  &__text {
+    font-family: "Roboto", sans-serif;
+  }
+
+  &__block {
+    padding: 35px;
+  }
+}

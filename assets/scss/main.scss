@@ -7,8 +7,11 @@
 @import "common/grid";
 @import "common/fonts";
 
-
 @import "components/button";
+
+@import "components/pages/index";
 
 @import "components/layout/header";
 @import "components/layout/sidebar";
+@import "components/layout/foorer";
+@import "components/layout/page";

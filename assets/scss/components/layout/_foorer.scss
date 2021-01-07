@@ -1,0 +1,17 @@
+.footer {
+  background-color: #111111;
+  height: 125px;
+  padding: 25px;
+  &__h {
+    color: white;
+  }
+  &__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__menu {
+    margin: -10px;
+  }
+}
