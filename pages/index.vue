@@ -39,3 +39,30 @@
     </div>
   </div>
 </template>
+<style lang="scss" scoped>
+.back {
+  background: url(https://i.trademc.org/shops/c/B/cBUYFjeccD.jpg) no-repeat 50%;
+}
+.head {
+  height: 300px;
+  padding: 45px;
+  &__name {
+    padding: 5px;
+    color: white;
+  }
+}
+.body {
+  align-items: center;
+  background: rgb(157, 157, 157);
+  background: white;
+
+  &__text {
+    font-family: "Roboto", sans-serif;
+  }
+
+  &__block {
+    padding: 35px;
+  }
+}
+
+</style>

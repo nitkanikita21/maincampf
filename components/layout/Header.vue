@@ -2,9 +2,14 @@
   <header class="header">
     <div class="container">
       <div class="header__wrap">
-        <nuxt-link to="/" class="header__logo">
-          <img alt="High twink" :src="require('~/assets/img/Logo.svg')">
-        </nuxt-link>
+        <div class="header__logo">
+          <nuxt-link to="/">
+            <img alt="High twink" :src="require('~/assets/img/logo.png')">
+          </nuxt-link>
+          <h2 class="header_logo">
+            HIGHTWINK
+          </h2>
+        </div>
         <nav class="header__nav header-nav">
           <a href="https://vk.com/hightwink" class="header-nav__item button" target="_blank"> VK </a>
           <a href="https://discord.com/invite/WvWyh9N" class="header-nav__item button" target="_blank"> DICKSCORD </a>

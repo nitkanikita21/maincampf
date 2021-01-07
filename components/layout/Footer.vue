@@ -2,9 +2,10 @@
   <footer class="footer">
     <div class="container">
       <div class="footer__content">
-        <h4 class="footer__h">
+        <h2 class="footer__h">
           HighTwink
-        </h4>
+        </h2>
+
         <div class="footer__menu">
           <a href="https://vk.com/hightwink" class="button" target="_blank"> VK </a>
           <a href="https://discord.com/invite/WvWyh9N" class="button" target="_blank"> DICKSCORD </a>

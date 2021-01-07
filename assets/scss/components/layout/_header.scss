@@ -1,6 +1,6 @@
 .header {
-  margin: 20px 0;
-
+  padding: 20px 0;
+  background-color: #111111;
   &__wrap {
     display: flex;
     align-items: center;
@@ -8,8 +8,12 @@
   }
 
   &__logo {
+    align-items: center;
+    display: flex;
+    color: $--yellow;
     img {
-      height: 80px;
+      height: 60px;
+      margin-right: 5px;
     }
   }
 
@@ -23,9 +27,6 @@
   align-items: center;
   justify-content: center;
   margin: -10px;
-
-  &__item {
-  }
 }
 
 @media screen and (max-width: 768px) {

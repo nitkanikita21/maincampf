@@ -12,11 +12,7 @@
 .body {
   align-items: center;
   background: rgb(157, 157, 157);
-  background: linear-gradient(
-    0deg,
-    rgba(157, 157, 157, 1) 0%,
-    rgba(245, 245, 245, 1) 100%
-  );
+  background: $--white;
 
   &__text {
     font-family: "Roboto", sans-serif;
