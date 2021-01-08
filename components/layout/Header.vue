@@ -10,6 +10,7 @@
             HIGHTWINK
           </h2>
         </div>
+
         <nav class="header__nav header-nav">
           <a href="https://vk.com/hightwink" class="header-nav__item button" target="_blank"> VK </a>
           <a href="https://discord.com/invite/WvWyh9N" class="header-nav__item button" target="_blank"> DICKSCORD </a>

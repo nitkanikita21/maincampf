@@ -26,7 +26,7 @@
 import ListItem from '~/components/sections/features/FeaturesListItem'
 
 export default {
-  name: 'Features',
+  name: 'FeaturesGm',
   components: { ListItem },
   data () {
     return {
