@@ -1,0 +1,68 @@
+.hero {
+  position: relative;
+  height: 100vh;
+  background: linear-gradient(90deg, #000000 0%, rgba(255, 255, 255, 0) 100%);
+
+
+  &__wrap {
+    height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  &__name {
+    color: $--white;
+    font-size: 100px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+  }
+
+  &__description {
+    color: $--white;
+    font-size: 40px;
+  }
+
+  &__bg {
+    z-index: -10;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+
+    img {
+      position: absolute;
+      width: 100%;
+
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .hero__name {
+    font-size: 50px;
+  }
+  .hero__description {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero__bg {
+    img {
+      width: auto;
+      height: 100%;
+    }
+  }
+}
+@media screen and (max-width: 576px) {
+  .hero__name {
+    font-size: 30px;
+  }
+  .hero__description {
+    font-size: 15px;
+  }
+}
