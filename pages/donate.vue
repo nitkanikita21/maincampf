@@ -1,13 +1,6 @@
 <template>
-  <div class="container page">
-    <div class="head back">
-      <h1 class="head__name">
-        HighTwink
-      </h1>
-      <h2 class="head__name">
-        Лучший СНГ сервер Minecraft
-      </h2>
-    </div>
+  <div class="">
+    <Hero :img="require('~/assets/img/hero_bg2.jpg')" />
     <div class="body">
       <div class="body__headers body__line">
         <div class="body__block body__headers">
@@ -95,3 +88,11 @@
 }
 
 </style>
+<script>
+import Hero from '~/components/sections/Hero'
+export default {
+  components: {
+    Hero
+  }
+}
+</script>

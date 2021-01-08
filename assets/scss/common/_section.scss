@@ -1,0 +1,83 @@
+.section {
+  margin-top: 65px;
+  margin-bottom: 65px;
+  &__title {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  &__desc {
+    margin: 5px;
+  }
+}
+.features {
+  &__list {
+    /* стили в контексте элемента */
+  }
+  &__wrap {
+    &--center {
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
+.features-list {
+  /* стили в контексте блока */
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  &__item {
+    /* стили в контексте элемента */
+  }
+}
+.features-list-item {
+  /* стили в контексте блока */
+  margin: 15px;
+  border: 1px solid #020202;
+  height: 350px;
+  -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.45);
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.45);
+  &__icon {
+    position: relative;
+    overflow: hidden;
+    width: 300px;
+    height: 250px;
+    background: radial-gradient(
+      circle,
+      rgba(245, 245, 245, 0) 35%,
+      rgb(0, 0, 0) 100%
+    );
+    img {
+      height: 250px;
+      width: 100%;
+      z-index: -1;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+    }
+  }
+  &__features {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  &:hover {
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.6);
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.6);
+  }
+}
+.features-list-item-features {
+  &__title {
+    padding-bottom: 5px;
+  }
+  &__desc {
+    width: 250px;
+    word-break: break-all;
+    display: flex;
+    padding: 5px;
+    flex-wrap: w;
+  }
+}

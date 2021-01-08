@@ -11,14 +11,20 @@
       </div>
     </div>
     <div class="hero__bg">
-      <img :src="require('~/assets/img/hero-bg.jpg')" alt="background">
+      <img :src="img" alt="background">
     </div>
   </section>
 </template>
 
 <script>
 export default {
-  name: 'Hero'
+  name: 'Hero',
+  props: {
+    img: {
+      type: String,
+      default: require('~/assets/img/hero-bg.jpg')
+    }
+  }
 }
 </script>
 
