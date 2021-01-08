@@ -1,9 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@font-face {
+  font-family: 'Minecraft Rus';
+  src: url(~assets/fonts/9303.woff2) format('woff2');
+}
 
 * {
   font-family: 'Roboto', sans-serif;
 }
 
 a, button, h1, h2, h3, h4, h5, h6 {
-  font-family: 'Press Start 2P', cursive;
+  font-family: 'Minecraft Rus', cursive;
 }

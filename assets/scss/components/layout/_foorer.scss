@@ -2,16 +2,25 @@
   background-color: #111111;
   height: 125px;
   padding: 25px;
+
   &__h {
     color: $--yellow;
   }
+
   &__content {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
   }
+
   &__menu {
     margin: -10px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .footer__menu {
+    display: none;
   }
 }
