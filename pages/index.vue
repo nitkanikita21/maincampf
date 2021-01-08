@@ -5,6 +5,41 @@
       <div class="container">
         <div class="features__wrap--center">
           <h2 class="section__title">
+            HighTwink
+          </h2>
+          <div class="features__list features-list">
+            <div class="features-list__item features-list__item--center">
+              <h3>
+                Версия
+              </h3>
+              <h4>
+                1.12.х - 1.16.х
+              </h4>
+            </div>
+            <div class="features-list__item features-list__item--center">
+              <h3>
+                IP
+              </h3>
+              <h4>
+                mc.hightwink.net
+              </h4>
+            </div>
+            <div class="features-list__item features-list__item--center">
+              <h3>
+                Онлайн
+              </h3>
+              <h4>
+                404 игрока
+              </h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section features ">
+      <div class="container">
+        <div class="features__wrap--center">
+          <h2 class="section__title">
             Наши режимы
           </h2>
           <p class="section__desc">
