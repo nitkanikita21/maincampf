@@ -1,6 +1,6 @@
 <template>
   <div class="">
-    <Hero :img="require('~/assets/img/hero_bg2.jpg')" />
+    <Hero :img="require('~/assets/img/hero_bg2.jpg')" desc="Донат - это ваша поддержка" />
     <FeaturesDonate />
   </div>
 </template>

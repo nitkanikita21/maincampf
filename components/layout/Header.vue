@@ -12,6 +12,11 @@
         </div>
 
         <nav class="header__nav header-nav">
+          <nuxt-link to="/donate">
+            <button class="header-nav__item button">
+              Донат
+            </button>
+          </nuxt-link>
           <a href="https://vk.com/hightwink" class="header-nav__item button" target="_blank"> VK </a>
           <a href="https://discord.com/invite/WvWyh9N" class="header-nav__item button" target="_blank"> DICKSCORD </a>
         </nav>

@@ -2,11 +2,11 @@
   <section class="hero">
     <div class="container">
       <div class="hero__wrap">
-        <h1 class="hero__name">
+        <h1 class="hero__name hero__item">
           HighTwink
         </h1>
         <h2 class="hero__description">
-          Лучший СНГ сервер Minecraft
+          {{ desc }}
         </h2>
       </div>
     </div>
@@ -23,6 +23,10 @@ export default {
     img: {
       type: String,
       default: require('~/assets/img/hero-bg.jpg')
+    },
+    desc: {
+      type: String,
+      default: 'Лучший СНГ сервер Minecraft'
     }
   }
 }

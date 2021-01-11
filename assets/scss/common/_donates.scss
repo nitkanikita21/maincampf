@@ -1,0 +1,59 @@
+.donate-box {
+  margin: 2.5px;
+  background-color: rgb(233, 233, 233);
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.5);
+  transition: 0.5s all;
+  &:hover {
+    box-shadow: 8px 8px 0px rgba(0, 0, 0, 0.4);
+    margin: 4px;
+  }
+  &__img {
+    height: 300px;
+    width: 300px;
+  }
+  &__wrap {
+    margin: 5px;
+    margin-left: 15px;
+    padding: 15px;
+  }
+  &__title {
+    font-size: 65px;
+
+    &--red {
+      color: rgb(252, 34, 34);
+    }
+    &--blue1 {
+      color: lightseagreen;
+    }
+    &--blue2 {
+      color: royalblue;
+    }
+  }
+  &__desc {
+    font-size: 20px;
+    text-align: justify;
+  }
+  &__price {
+    margin: 20px;
+  }
+}
+.donate-box-wrap {
+  border-left: 3px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.donate-box-price-box {
+  &__text {
+    font-size: 25px;
+    color: $--yellow;
+    font-weight: bold;
+  }
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-between;
+}

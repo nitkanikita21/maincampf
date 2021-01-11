@@ -9,9 +9,9 @@
         <h3 class="features-list-item-features__title">
           {{ title }}
         </h3>
-        <p class="features-list-item-features__desc">
+        <div class="features-list-item-features__desc">
           {{ desc }}
-        </p>
+        </div>
       </div>
     </div>
   </div>
